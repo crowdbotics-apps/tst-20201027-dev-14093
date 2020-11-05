@@ -16,6 +16,8 @@ import Slider from "@react-native-community/slider"
 import { CheckBox } from "react-native-elements"
 import { SlideMenuIcon } from "../../../navigator/slideMenuIcon"
 
+console.log("Logging");
+
 export default class Blank extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
