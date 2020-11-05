@@ -35,6 +35,7 @@ export default class Blank extends React.Component {
             "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/Screenshot_2020-05-22_Crowdbotics_Storyboard_Editor.png"
         }}
       />
+      <Text>Testing 1335</Text>
     </View>
   )
 }
