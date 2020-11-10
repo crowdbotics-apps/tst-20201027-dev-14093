@@ -23,7 +23,7 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = { CheckBox_3: true }
+  state = { CheckBox_3: false }
 
   render = () => (
     <View>
@@ -41,6 +41,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  CheckBox_3: {},
   View_1: {},
   CheckBox_3: {}
 })
