@@ -29,6 +29,7 @@ export default class Blank extends React.Component {
     <View>
       <CheckBox
         title="Checkbox"
+        containerStyle={styles.CheckBox_3}
         checked={this.state.CheckBox_3}
         onPress={nextChecked => this.setState({ CheckBox_3: nextChecked })}
       />
@@ -49,5 +50,8 @@ const styles = StyleSheet.create({
   CheckBox_3: {},
   View_1: {},
   CheckBox_3: {},
+  Text_5: {},
+  View_1: {},
+  CheckBox_3: { color: "#cb4343" },
   Text_5: {}
 })
